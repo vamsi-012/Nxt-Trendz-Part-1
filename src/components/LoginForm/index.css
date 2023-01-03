@@ -1,0 +1,144 @@
+/* Write your CSS code here */
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+}
+
+.website-logo-mobile {
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-mobile {
+    display: none;
+  }
+}
+
+.website-logo-large {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-large {
+    display: flex;
+    width: 60%;
+    margin-bottom: 25px;
+  }
+}
+
+.login-img {
+  width: 90%;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-img {
+    width: 35%;
+    margin-right: 100px;
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form {
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 25px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 25%;
+    height: 55%;
+  }
+}
+
+.label {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  align-self: flex-start;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 10px;
+    width: 70%;
+    padding-left: 50px;
+  }
+}
+
+.input {
+  background-color: #d7dfe9;
+  padding-left: 15px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    width: 70%;
+    height: 35px;
+  }
+}
+
+.login-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Roboto';
+  width: 100%;
+  border-radius: 10px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+  padding-left: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-btn {
+    width: 73%;
+    height: 35px;
+    font-size: 11px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+}
